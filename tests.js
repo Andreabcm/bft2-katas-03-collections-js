@@ -134,7 +134,7 @@ describe("Ejemplos resueltos: Operaciones iterables", () => {
 
         // aplica la función some para verificar si alguno de los números de la lista es menor que 0
         // SOLUCIÓN:
-        let condicion = list.some(menorQue0);    
+        let condicion = list.every(menorQue0);    
         // SOLUCIÓN ALTERNATIVA:
         // let condición = list.some( n => n < 0 );    
         
